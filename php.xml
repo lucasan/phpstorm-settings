@@ -11,12 +11,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/bin/php" id="233e2e90-72ab-4782-802a-749dd5564107" name="homebrewed-php70" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/bin/php" id="233e2e90-72ab-4782-802a-749dd5564107" name="homebrewed-php71" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="homebrewed-php70">
+      <interpreter name="homebrewed-php71">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.0_11/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.0_11/bin/php" path_separator=":" version="7.1.0">
           <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-pspell.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
