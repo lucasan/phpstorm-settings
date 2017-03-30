@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28228efc-265c-4d53-aed7-2d2e5d71decd" name="phalanx" url="http://fcc.dev.inqbation.com">
+        <fileTransfer host="45.33.113.77" port="1337" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/inqbat/dev-html/FCC/fcc_drupal/docroot" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="1337" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
