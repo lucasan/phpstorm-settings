@@ -6,7 +6,7 @@
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration max_messages_per_file="100" timeout="30000" tool_path="/usr/local/bin/phpcs" />
+      <PhpCSConfiguration max_messages_per_file="100" timeout="30000" tool_path="/usr/local/Cellar/php-code-sniffer/2.8.1/scripts/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
