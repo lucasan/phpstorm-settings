@@ -22,6 +22,9 @@
           <option name="port" value="1337" />
         </fileTransfer>
       </webServer>
+      <webServer id="6eaa3c5a-b3a8-49a9-893c-b30d5441404a" name="inQbation Site" url="http://inqbation.local.com">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
