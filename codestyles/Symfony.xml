@@ -1,4 +1,4 @@
-<code_scheme name="Symfony">
+<code_scheme name="Symfony" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <CssCodeStyleSettings>
     <option name="HEX_COLOR_LOWER_CASE" value="true" />
@@ -16,8 +16,9 @@
     <option name="PHPDOC_WRAP_LONG_LINES" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="FIELDS_DEFAULT_VISIBILITY" value="protected" />
     <option name="VARIABLE_NAMING_STYLE" value="CAMEL_CASE" />
-    <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="CSS">
