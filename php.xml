@@ -18,8 +18,8 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="homebrewed-php72">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.4/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.4/bin/php" path_separator=":" version="7.2.4">
-          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-opcache.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.4_1/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.4_1/bin/php" path_separator=":" version="7.2.4">
+          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-opcache.ini, /usr/local/etc/php/7.2/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -91,7 +91,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.4/share/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.4_1/share/php/pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -268,7 +268,7 @@
             <configuration_option name="user_ini.filename" value=".user.ini" />
             <configuration_option name="variables_order" value="GPCS" />
             <configuration_option name="xdebug.auto_trace" value="0" />
-            <configuration_option name="xdebug.cli_color" value="0" />
+            <configuration_option name="xdebug.cli_color" value="1" />
             <configuration_option name="xdebug.collect_assignments" value="0" />
             <configuration_option name="xdebug.collect_includes" value="1" />
             <configuration_option name="xdebug.collect_params" value="0" />
@@ -290,13 +290,13 @@
             <configuration_option name="xdebug.extended_info" value="1" />
             <configuration_option name="xdebug.file_link_format" value="" />
             <configuration_option name="xdebug.filename_format" value="" />
-            <configuration_option name="xdebug.force_display_errors" value="0" />
+            <configuration_option name="xdebug.force_display_errors" value="1" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.gc_stats_enable" value="0" />
             <configuration_option name="xdebug.gc_stats_output_dir" value="/var/tmp/" />
             <configuration_option name="xdebug.gc_stats_output_name" value="gcstats.%p" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="" />
+            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
