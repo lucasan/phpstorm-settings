@@ -10,6 +10,7 @@
       <mapping ext="install" type="PHP" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping pattern="reviews_under_status" type="Twig" />
+      <mapping ext="xlf" type="XML" />
     </extensionMap>
   </component>
 </application>
