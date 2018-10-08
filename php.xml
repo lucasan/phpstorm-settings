@@ -1,13 +1,15 @@
 <application>
   <component name="MessDetector">
+    <phpmd_settings_migrated />
     <phpmd_settings>
-      <MessDetectorConfiguration max_messages_per_file="100" timeout="30000" tool_path="/usr/local/bin/phpmd" />
+      <MessDetectorConfiguration max_messages_per_file="100" tool_path="/usr/local/bin/phpmd" timeout="30000" />
     </phpmd_settings>
   </component>
   <component name="PhpAutoImport" prepend_global_functions_and_constants="true" />
   <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
     <phpcs_settings>
-      <PhpCSConfiguration max_messages_per_file="100" standards="My-Symfony;MySource;PEAR;PSR1;PSR2;Squiz;Symfony;Zend" timeout="30000" tool_path="/usr/local/bin/phpcs" />
+      <PhpCSConfiguration max_messages_per_file="100" standards="My-Symfony;MySource;PEAR;PSR1;PSR2;Squiz;Symfony;Zend" tool_path="/usr/local/bin/phpcs" timeout="30000" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
